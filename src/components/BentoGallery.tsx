@@ -13,7 +13,10 @@ const images = [
 
 const BentoGallery = () => {
   return (
-    <div className="grid grid-cols-4 gap-4">
+    <section
+      id="gallery"
+      className="grid grid-cols-4 gap-4 scroll-mt-[15vh] mb-10"
+    >
       {images.map((src, index) => (
         <div
           key={index}
@@ -32,7 +35,7 @@ const BentoGallery = () => {
           />
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 
