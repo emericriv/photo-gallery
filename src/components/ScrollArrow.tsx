@@ -1,12 +1,16 @@
 const ScrollArrow = () => {
   return (
-    <div className="flex justify-center mt-6">
+    <div className="flex flex-col justify-center">
+      <p className="text-gold ml-30 updock-regular">
+        Voir quelques unes de mes réalisations
+      </p>
       <svg
         width="300pt"
         height="280pt"
         viewBox="0 0 300 280"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className="-mt-4"
       >
         <g
           transform="translate(0.000000,280.000000) scale(0.100000,-0.100000)"

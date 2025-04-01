@@ -11,7 +11,7 @@ const images = [
   "img/sample10.jpg",
 ];
 
-const BentoGallery = () => {
+export const BentoGallery = () => {
   return (
     <section
       id="gallery"
@@ -38,5 +38,3 @@ const BentoGallery = () => {
     </section>
   );
 };
-
-export default BentoGallery;

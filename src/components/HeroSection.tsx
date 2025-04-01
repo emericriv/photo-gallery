@@ -15,11 +15,14 @@ export const HeroSection = () => {
           Pour recommander des images d'un précédent shooting, connectez-vous à
           votre compte.
         </p>
-        <button className="mt-6 bg-gold text-dark px-4 py-2 rounded-full cursor-pointer text-md font-semibold hover:bg-gold/80">
-          Mes prestations
-        </button>
+        <a
+          className="mt-6 bg-gold text-dark px-4 py-2 rounded-full cursor-pointer text-md font-semibold hover:bg-gold/80"
+          href="#contact"
+        >
+          Me contacter
+        </a>
         {/* Flèche en position absolue */}
-        <div className="absolute -right-30 -top-16">
+        <div className="absolute -right-35 -top-16">
           <ScrollArrow />
         </div>
       </div>

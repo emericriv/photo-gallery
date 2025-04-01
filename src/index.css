@@ -16,6 +16,13 @@
   }
 }
 
+.updock-regular {
+  font-family: "Updock", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+}
+
 body {
   margin: 0;
   padding: 0;

@@ -1,5 +1,5 @@
 import { AboutSection } from "../components/AboutSection";
-import BentoGallery from "../components/BentoGallery";
+import { BentoGallery } from "../components/BentoGallery";
 import { ContactSection } from "../components/ContactSection";
 import { HeroSection } from "../components/HeroSection";
 
